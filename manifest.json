@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Home2Trending",
+    "description": "https://github.com/Gattxxa/Home2Trending",
+    "version": "1.0.0",
+    "icons": {
+        "16": "./icons/x16.png",
+        "48": "./icons/x48.png",
+        "128": "./icons/x128.png"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "./background.js"
+    }
+}
